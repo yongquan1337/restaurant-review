@@ -1,0 +1,199 @@
+.mystyle{
+	height: 90px;
+	width: 254px;
+	color: white;
+	font-size: smaller;
+}
+.flip-container{
+	perspective: 1000px;
+}
+
+
+.body{
+    display:flex; 
+    flex-direction:column; 
+    background-color: #000;
+}
+
+
+.edit{
+    float: right;
+    padding-right: 10px;
+}
+
+.navbar-colour{
+    background-color: #C70101;
+}
+
+#loggedin{
+  display: inline-flex;
+}
+
+#user-name{
+  padding-left: 100px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+#profilepic{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.carousel img {
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 300px;
+    
+    width: 100%;
+    object-fit: cover;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 300px;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.example button {
+  width: 50px;
+  height: 47.5px;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.example{
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.filter-row{
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  top: 300px;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.filter-container{
+  padding: 20px;
+}
+
+
+
+.title{
+  margin-top: 20px;
+}
+
+#restaurantList,#favouriteList,#nearMeList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+.listing{
+  padding: 20px;
+}
+
+.card{
+  width: 1000px;
+  height: 270px;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.card-text, .card-title{
+  width: 500px;
+}
+
+.home-thumbnail{
+  width: 200px;
+}
+
+.row{
+  width: 100%;
+}
+
+
+.star{
+  width: 25px;
+  margin-bottom: 5px;
+  align-items: baseline;
+}
+
+.rate{
+  position: absolute;
+  bottom: 0;
+  float: left;
+}
+
+.link{
+  display: block;
+  position: absolute; 
+  height: 100%;
+  width: 100%;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+

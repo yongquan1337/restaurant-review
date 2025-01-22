@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="css/reviewstyle.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/customscript.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <div w3-include-html = "submitted-modal.html"></div>
+</head>
+<body onload="getOneRestaurant2();getOneReview();navbar();checkSubmitted('2');">
+    <div w3-include-html = "top-navigation.html"></div>
+
+    <div>
+        <div class="restaurant row">
+            <div>
+                <img class="restaurant-thumb" id="restaurant-thumb" width="200px" src="" alt="">
+            </div>
+            <div class="restaurant-info">
+                <h4 id="restaurant-title"></h4><br>
+                <p id="review-address">
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <hr size="30" width="800px" style="float: left; margin-left: 100px;"><br><br>
+
+    <form action="">
+        <h4 style="margin-left: 100px;">Overasll rating of this restaurant</h4>
+        <div class="row">
+            <div class = "filter-row">
+                <div class="filter-container">
+                    <img height="35px" src="images/filled-star.png" alt="">
+                    <select id="overall2" class="custom-select" style="width:150px;"> 
+                        <option value=1>1</option> 
+                        <option value=2>2</option> 
+                        <option value=3>3</option> 
+                        <option value=4>4</option> 
+                        <option value=5>5</option> 
+                    </select>
+                </div>
+                <div class="filter-container">
+                    <p class="dollar">$</p>
+                    <select id="value2" class="custom-select" style="width:150px;"> 
+                        <option value=1>1</option> 
+                        <option value=2>2</option> 
+                        <option value=3>3</option> 
+                        <option value=4>4</option> 
+                        <option value=5>5</option> 
+                    </select>
+                </div>
+            </div>  
+        </div>
+        
+        <div class="form-group green-border-focus review-text review-title">
+            <label aria-required="true" for="exampleFormControlTextarea5">Review Title</label>
+            <textarea id="review_title2" class="form-control" id="exampleFormControlTextarea5" rows="1"></textarea>
+        </div>
+        <div class="form-group green-border-focus review-text">
+            <label for="exampleFormControlTextarea5">Review</label>
+            <textarea id="review_body2" class="form-control" id="exampleFormControlTextarea5" rows="8"></textarea>
+        </div>
+        
+        <div>
+            
+            <div class="row">
+                <div class="col-sm-2 rate">
+                    <div class="filter-container">
+                        <h3>Service</h4>
+                        <select id="service2" class="custom-select" style="width:150px;"> 
+                            <option value="1">1</option> 
+                            <option value="2">2</option> 
+                            <option value="3">3</option> 
+                            <option value="4">4</option> 
+                            <option value="5">5</option> 
+                        </select>
+                    </div>
+                    <br><br>
+                    <div class="filter-container">
+                        <h3>Food</h3>
+                        
+                        <select id="food2" class="custom-select" style="width:150px;"> 
+                            <option value="1">1</option> 
+                            <option value="2">2</option> 
+                            <option value="3">3</option> 
+                            <option value="4">4</option> 
+                            <option value="5">5</option> 
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group photo">
+                    <input id="review_image" type="file" accept="image/x-png,image/jpeg" id="photo" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+                <button id="post" type="button" onclick="updateReview()" class = "btn badge-pill badge-success">Apply Changes</button>
+            </div>
+
+            
+        </div>
+    </form>
+    
+
+    
+    
+      
+      
+    
+</body>
+
+<script src="js/w3.js"></script>
+
+<script>
+        //to bring in other HTML on the fly into this page
+        w3.includeHTML();
+</script>
+</html>

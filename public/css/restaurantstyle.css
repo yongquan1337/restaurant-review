@@ -1,0 +1,295 @@
+.navbar-colour{
+    background-color: #C70101;
+}
+
+#loggedin{
+  display: inline-flex;
+}
+
+#user-name{
+  padding-left: 100px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+#profilepic{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin: 0;
+}
+.carousel img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 300px;
+  
+  width: 100%;
+  object-fit: cover;
+}
+
+#penis{
+  background: #3A3636;
+}
+
+
+/* Style the search field */
+.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 300px;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  .example button {
+    width: 50px;
+    height: 47.5px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  .example button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  .example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+  
+  .example{
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  .filter-row{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+  
+  .filter-container{
+    padding: 20px;
+  } 
+  .star{
+    width: 25px;
+    margin-bottom: 5px;
+  }
+
+.restaurant-filter{
+    height: 300px;
+    width: 100%;
+    background-color: #515151;
+}
+
+.restaurant-left{
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.restaurant-info{
+    margin-left: 12.5em;
+    display: inline-flex;
+    padding: 10px;
+    
+}
+
+.restaurant-container{
+  position: relative;
+  width: 1200px;
+  margin-left: 180px;
+  
+}
+
+.empty-heart{
+    float: right;
+    width: 50px;
+    margin-right: 600px;
+    pointer-events: auto;
+    position: relative;
+    z-index: 3;
+}
+
+.thumbnail-container{
+    
+    margin-top: 50px;
+    width: 100%;
+  }
+
+.img-container{
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.restaurant-img{
+  width:inherit;
+  height:inherit;
+  object-fit: cover;
+}
+
+.card{
+    height: 350px;
+    width: 400px;
+    
+}
+
+.card-container{
+    padding: 20px;
+}
+
+.detail-container{
+  height: 175px;
+}
+
+
+.containers{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-left: 400px;
+  
+}
+
+.review-box{
+  width: 1500px;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+
+
+.review-rating{
+  width: 600px;
+  word-break: break-all;
+  margin-top: 20px;
+  overflow:auto;
+  height: 200px;
+}
+
+.all-rating{
+  width: 500px;
+  height: 300px;
+  display: inline-flex;
+  padding: 30px;
+}
+
+.rating-title{
+  margin-left: 0px;
+}
+.rating-num{
+  margin-left: auto;
+}
+
+.profile-pic{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.user-review{
+  display:block;
+  margin:auto;
+  margin-bottom: 20px;
+}
+
+.review-div{
+  width: 1400px;
+  height: 300px;
+  padding: 10px;
+}
+
+.review-container{
+  width: fit-content;
+  padding: 10px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+#write-link{
+  display: block;
+  position: absolute; 
+  width: 150px;
+  height: 50px;
+}
+
+#write-review{
+  float: right;
+}
+
+#write-container{
+  width: 150px;
+  height: 50px;
+}
+
+.review-btn{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#edit{
+  margin-right: 10px;
+  width: 60px;
+  height: 40px;
+  margin-left: auto;
+}
+
+
+
+.row{
+  width: 100%;
+}
+
+#ratings{
+  width: 200px;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+
+.link{
+  display: block;
+  position: absolute; 
+  height: 40px;
+  width: 60px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}

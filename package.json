@@ -1,0 +1,20 @@
+{
+  "name": "movie-review-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "buffer": "^6.0.3",
+    "express": "^4.15.4",
+    "mysql": "^2.18.1",
+    "node-datetime": "^2.0.3"
+  }
+}

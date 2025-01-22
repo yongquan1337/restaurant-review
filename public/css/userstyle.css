@@ -1,0 +1,181 @@
+.navbar-colour{
+    background-color: #C70101;
+}
+
+#loggedin{
+    display: inline-flex;
+}
+
+#user-name{
+    padding-left: 100px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+#profilepic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.colour{
+    background-color: #515151;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#pfp{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#user{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.row-c{
+    width: 1000px;
+    padding-bottom: 50px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+  .review-box{
+    width: 1500px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    
+  }
+  
+  
+  .review-rating{
+    width: 350px;
+    height: 150px;
+    word-break: break-all;
+    margin-top: 20px;
+    overflow:auto;
+  }
+  
+  .all-rating{
+    width: 300px;
+    height: 200px;
+    display: inline-flex;
+    padding: 30px;
+  }
+  
+  .rating-title{
+    margin-left: 0px;
+  }
+  .rating-num{
+    margin-left: auto;
+  }
+  
+  .profile-pic{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0;
+  }
+  
+  .user-review{
+    display:block;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .review-div{
+    width: 900px;
+    height: 200px;
+    padding: 10px;
+  }
+
+  .link{
+    display: block;
+    position: absolute; 
+    height: 40px;
+    width: 60px;
+  }
+  
+  .review-container{
+    width: 900px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  #write-link{
+    display: block;
+    position: absolute; 
+    width: 150px;
+    height: 50px;
+  }
+  
+  #write-review{
+    float: right;
+  }
+  
+  #write-container{
+    width: 150px;
+    height: 50px;
+  }
+  
+  .review-btn{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #edit{
+    margin-right: 10px;
+    width: 60px;
+    height: 40px;
+    margin-left: auto;
+  }
+  
+  #ratings{
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+  }
+  
+  
+  .star{
+    width: 25px;
+    margin-bottom: 5px;
+    align-items: baseline;
+  }
+  
+#user-review-container{
+    margin-left: 200px;
+    
+}
+
+#user-review{
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  height: 900px;
+}
+
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
